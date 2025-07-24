@@ -54,7 +54,7 @@ while True:
         print("Numeros Mas Frecuentes ", end="")
         for i in range(10):
             if frecuencias[i] == max_apariciones:
-                print(i, end=" ")
+                print(i, end=", ")
         print()
 
     elif opcion == "6":
@@ -62,7 +62,7 @@ while True:
         print("Numeros Menos Frecuentes: ", end="")
         for i in range(10):
             if frecuencias[i] == min_apariciones and frecuencias[i] > 0:
-                print(i, end="")
+                print(i, end=",")
         print()
 
     elif opcion == "7":
